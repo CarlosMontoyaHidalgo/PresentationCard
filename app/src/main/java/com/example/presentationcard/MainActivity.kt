@@ -74,8 +74,8 @@ fun CardPamn(){
                     .clip(CircleShape)
             )
         }
-        Text(text = "Nombre", color = Color.White)
-        Text(text = "texto complementario", color = Color(0xFF3ddc84))
+        Text(text = stringResource(R.string.name), color = Color.White)
+        Text(text = stringResource(R.string.presentation_name), color = Color(0xFF3ddc84))
     }
 
     Column(
